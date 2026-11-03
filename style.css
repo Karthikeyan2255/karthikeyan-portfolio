@@ -25,12 +25,10 @@ a {
   text-decoration: none;
 }
 button,
-a,
-summary {
+a {
   -webkit-tap-highlight-color: transparent;
 }
-a:focus-visible,
-summary:focus-visible {
+a:focus-visible {
   outline: 3px solid #e67c24;
   outline-offset: 5px;
 }
@@ -537,39 +535,6 @@ h3 {
   line-height: 1.7;
   color: var(--muted);
   margin: 8px 0 20px;
-}
-.project details {
-  border-top: 1px solid var(--line);
-  font-size: 12px;
-}
-.project summary {
-  cursor: pointer;
-  padding: 15px 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-.project summary::-webkit-details-marker {
-  display: none;
-}
-.project summary span {
-  color: var(--blue);
-}
-details[open] summary span {
-  transform: rotate(45deg);
-}
-.case {
-  font-size: 13px;
-  color: var(--muted);
-  line-height: 1.7;
-  padding-bottom: 12px;
-}
-.case h4 {
-  color: var(--ink);
-  margin: 15px 0 4px;
-}
-.case p {
-  margin: 0;
 }
 .background {
   background: #edf3f9;
