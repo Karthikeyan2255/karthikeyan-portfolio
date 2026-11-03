@@ -699,7 +699,7 @@ h3 {
 }
 .background-foot {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin-top: 28px;
   font-size: 12px;
   color: var(--muted);
